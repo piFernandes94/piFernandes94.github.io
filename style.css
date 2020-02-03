@@ -1,16 +1,28 @@
+body{background-color:#666;}
 body{background-color:#eeeeee;}
+.custom-container{background-color:rgb(36, 37, 37);}
 .custom-container{max-width: 1200px;margin:0 auto;background-color:#FFF;}
-.page-title{font-size:35px;line-height:38px;color:2A5090;font-weight:500;font-family:Roboto;display:block;text-align:center;padding-top:50px;padding-bottom:50px;}
+.page-title{font-size:35px;line-height:38px;color:2A5090;font-weight:500;font-family:Roboto;display:block;text-align:center;padding-top:75px;padding-bottom:50px;}
 
 
-#first-section{padding-top:50px;}
-#first-section .my-photo{max-width:100%;border-radius:10px;box-shadow:0 3px 6px rgba(0,0,0,0.26)}
+#first-section{padding-top:50px;padding-left:15px;padding-right:15px;}
+#first-section .my-photo{max-width:100%;border-radius:5px;box-shadow:0 3px 6px rgba(0,0,0,0.26);width:450px;}
 #first-section .title{font-size: 32px;line-height:35px;font-family: Roboto;color:#2A5090;font-weight:500;margin-bottom:25px;}
 #first-section .subtitle{font-size:20px;line-height:25px;font-family: Roboto;color:#2A5090;font-weight:400;width:200px;}
 #first-section .content{font-size:18px;line-height:20px;font-family: Roboto;color:#707070;font-weight:400;padding-left:30px;}
 
-#second-section{padding-bottom:200px;}
-#second-section .icon{height:200px;width:200px;margin:0 auto;margin-top:50px;border-radius:50%;border:2px solid #2A5090;display:flex;align-items:center;justify-content: center;transition:transform 0.3s ease, box-shadow 0.6s ease;cursor:pointer;}
-#second-section .icon::before{font-size: 80px;color:#2A5090;}
-#second-section .icon:hover{transform: scale(1.05);box-shadow:0px 6px 6px rgba(0,0,0,0.26);}
+#second-section{padding-top:100px;}
+#second-section .icon-link{cursor: pointer;}
+#second-section .icon-link:hover .icon{transform: scale(1.05);box-shadow:0px 6px 6px rgba(0,0,0,0.26);;color:#FFF;background-color:#2A5090}
+#second-section .icon{height:200px;width:200px;border-radius:50%;border:2px solid #2A5090;display:flex;align-items:center;justify-content: center;color:#2A5090;transition:all 0.3s ease;cursor:pointer;}
+#second-section .icon::before{font-size: 80px;}
 #second-section .title{text-align: center;font-size: 25px;line-height: 28px;font-family:'Roboto';text-transform:uppercase;padding-top:25px;color:#2A5090;}
+
+#formacao-section{padding-top:100px;}
+#formacao-section img{max-width:100%;}
+#formacao-section .wrapper{width:355px;}
+#formacao-section .img-wrapper{height:142px;display: flex;align-items:center;}
+#formacao-section .date{font-size: 18px;line-height: 20px;font-family: 'Roboto';color:#707070;display: block;padding-top: 15px;text-align: center;}
+#formacao-section .title{font-size: 20px;line-height: 23px;font-family:'Roboto';padding-top:10px;color:#2A5090;display:block;padding-top: 10px;text-align: center;}
+
+#experiencia-section{padding-top:100px;}

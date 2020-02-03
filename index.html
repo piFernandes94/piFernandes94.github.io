@@ -1,11 +1,16 @@
 <html>
 
 <head>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-        crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+        integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
     <link href="./style.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./functions.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -36,34 +41,72 @@
                     </div>
                     <div class="d-flex align-items-center mb-2">
                         <h2 class="subtitle">Email:</h2>
-                        <h3 class="content">Pedro_fernandes94@hotmail.com</h3>
+                        <a class="content" href="mailto:Pedro_fernandes94@hotmail.com"
+                            title="Email">Pedro_fernandes94@hotmail.com</h3>
                     </div>
                 </div>
             </div>
         </section>
         <section id="second-section">
             <div class="row mx-0">
-                <div class="col-4">
-                    <div class="text-center">
+                <div class="col-4 d-flex">
+                    <a class="d-inline-block mx-auto icon-link" title="Formação" id="formacao-btn">
                         <span class="fa fa-graduation-cap icon"></span>
-                    </div>
-                    <div class="title">Formação</div>
+                        <div class="title">Formação</div>
+                    </a>
                 </div>
-                <div class="col-4">
-                    <div class="text-center">
+                <div class="col-4 d-flex">
+                    <a class="d-inline-block mx-auto icon-link" title="Experiência">
                         <span class="fa fa-keyboard icon"></span>
-                    </div>
-                    <div class="title">Experiência</div>
+                        <div class="title">Experiência</div>
+                    </a>
                 </div>
-                <div class="col-4">
-                    <div class="text-center">
+                <div class="col-4 d-flex">
+                    <a class="d-inline-block mx-auto icon-link" title="Competências">
                         <span class="fa fa-user icon"></span>
-                    </div>
-                    <div class="title">Competências</div>
+                        <div class="title">Competências</div>
+                    </a>
                 </div>
             </div>
         </section>
-        <section></section>
+        <section id="formacao-section">
+            <div class="row align-items-center mx-0">
+                <div class="col-6 d-flex justify-content-center">
+                    <div class="wrapper">
+                        <div class="img-wrapper">
+                            <img src="./ise.jpg" alt="Ualg - Ise" title="Ualg - Ise">
+                        </div>
+                        <span class="date">09/2010-06/2014</span>
+                        <span class="title">12ºAno – Área de ciências de tecnologias</span>
+                    </div>
+
+                </div>
+                <div class="col-6 d-flex justify-content-center">
+                    <div class="wrapper">
+                        <div class="img-wrapper">
+                            <img src="./ualgise.png" alt="Escola Secundária de Loulé"
+                                title="Escola Secundária de Loulé">
+                        </div>
+                        <span class="date">09/2014-01/2018</span>
+                        <span class="title">Licenciatura em Tecnologias de Informação e Comunicação</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experiencia-section">
+            <div>
+                02/2017-05/2017	
+            </div>
+            <div>
+                Estágio curricular de programação na empresa Soft Solutions, em Loulé
+            </div>
+            <div>
+                05/2017-11/2017
+            </div>
+            <div>
+                Programador na empresa Soft Solutions, em Loulé
+            </div>
+        </section>
     </div>
 </body>
 
