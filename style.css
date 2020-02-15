@@ -1,9 +1,9 @@
 body{background-color:#666;}
-body{background-color:#eeeeee;}
-.custom-container{background-color:rgb(36, 37, 37);}
+/* body{background-color:#eeeeee;} */
+/* .custom-container{max-width: 1200px;margin:0 auto;background-color:rgb(36, 37, 37);} */
 .custom-container{max-width: 1200px;margin:0 auto;background-color:#FFF;}
 .page-title{font-size:35px;line-height:38px;color:2A5090;font-weight:500;font-family:Roboto;display:block;text-align:center;padding-top:75px;padding-bottom:50px;}
-
+.section-title{text-align: center;font-size: 30px;line-height: 33px;font-family:'Roboto';font-weight: 500;text-transform:uppercase;padding-top:35px;color:#2A5090;padding-bottom: 35px;display: block;text-align: center;}
 
 #first-section{padding-top:50px;padding-left:15px;padding-right:15px;}
 #first-section .my-photo{max-width:100%;border-radius:5px;box-shadow:0 3px 6px rgba(0,0,0,0.26);width:450px;}
@@ -25,4 +25,7 @@ body{background-color:#eeeeee;}
 #formacao-section .date{font-size: 18px;line-height: 20px;font-family: 'Roboto';color:#707070;display: block;padding-top: 15px;text-align: center;}
 #formacao-section .title{font-size: 20px;line-height: 23px;font-family:'Roboto';padding-top:10px;color:#2A5090;display:block;padding-top: 10px;text-align: center;}
 
-#experiencia-section{padding-top:100px;}
+#experiencia-section{padding-top:100px;padding-left:30px;padding-right:30px;}
+#experiencia-section .experiencia-row{margin-bottom:20px;text-align: center;background-color:rgba(42,80,144,0.5);border-radius: 10px;padding:10px 0px;}
+#experiencia-section .experiencia-row .date{font-size:18px;line-height:20px;font-family: Roboto;color:#FFF;font-weight:500;margin-right:50px;}
+#experiencia-section .experiencia-row .title{font-size:18px;line-height:20px;font-family: Roboto;color:#FFF;font-weight:400;}
